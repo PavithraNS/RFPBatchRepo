@@ -1,0 +1,181 @@
+   28  git push -u testRepo master
+   29  git pull
+   31  git status
+   32  git branch
+   33  git checkout developement 
+   34  git merge master
+   35  git status
+   36  git pull
+   37  git status
+   38  git push origin developement 
+   40  git log
+   44  git diff
+   45  git add DevTest.txt 
+   46  git diff
+   47  git status
+   48  git status --staged
+   49  git diff --staged
+   50  git diff master developement 
+   54  git status
+   55  git reset DevTest.txt
+   56  git status
+   59  git rm DevTest.txt 
+   60  git status
+   62  git rm HelloWorld.txt 
+   63  git status
+   64  git log
+   67  git log --follow DevTest.txt
+   68  git show 1a54db
+   69  git checkout -b deleteBranch
+   70  git branch -d deleteBranch 
+   71  git branch
+   72  git push origin deleteBranch 
+   73  git branch -d deleteBranch 
+   74  git checkout master
+   75  git status
+   76  git add .
+   77  git status
+   78  git commit -m "[Pavithra]modify RemovedHelloWorld"
+   79  git push origin deleteBranch 
+   80  git checkout master
+   81  git branch -d deleteBranch 
+   82  git branch -D deleteBranch 
+   83  git branch
+   84  git push origin --delete deleteBranch
+   88  git add HelloWorld.txt 
+   89  git status
+   90  git stash save
+   91  git checkout developement 
+   92  git checkout master
+   93  git stash pop
+   94  git stash save
+   95  git status
+   96  git stash --list
+   97  git stash -list
+   98  git stash -all
+   99  git stash list
+  100  git stash pop
+  101  git stash list
+  105  git stash list
+  106  git stash save
+  107  git stash list
+  108  git checkout -b testStash
+  110  git stash list
+  112  git checkout master
+  115  git stash list
+  117  git stash pop
+  119  git stash drop
+  120  git stash save
+  121  git stash drop
+  122  git stash list
+  126  history | grep git
+  127  history | grep git > gitCommandsList.txt
+  129  nano gitCommandsList.txt 
+  312  git clone https://github.com/PavithraNS/TestRepository.git
+  325  git init
+  329  git init
+  331  git remote -v
+  333  git remote -v
+  334  git remote remove origin
+  335  git remote -v
+  336  git remote add origin https://github.com/PavithraNS/FelloWShipBatch015.git
+  337  git remote -v
+  339  git init
+  340  git remote -v
+  343  git remote add origin https://github.com/PavithraNS/FelloWShipBatch015.git
+  344  git remote -v
+  346  nano .gitignore
+  347  nano .gitignore
+  348  nano .gitignore
+  349  git add .
+  350  git status
+  351  git commit -m "[Pavithra]Add AddedWelcomeMessage"
+  352  git status
+  353  git remote -v
+  354  git push -u origin master
+  359  git checkout -b devlopement
+  360  git remote -v
+  363  git add DevTest.cs 
+  364  git status
+  365  git commit -m "[Pavithra]Add AddingNewFileIntoDevBranch"
+  366  git push -u origin devlopement 
+  373  git checkout master
+  376  git pull
+  377  git status
+  378  git add Program.cs
+  379  git status
+  380  git commit -m "[Pavithra]Modify AddedNewLineOfCOde"
+  381  git push origin master
+  382  git pull
+  384  git satus
+  385  git status
+  386  git add Program.cs
+  387  git satus
+  388  git status
+  389  git commit -m "[Pavithra]Modify ResolvedConflicts"
+  390  git push origin master
+  391  git branch
+  392  git checkout devlopement 
+  393  git diff
+  394  git add Program.cs 
+  395  git status
+  396  git diff
+  397  git diff --stage
+  398  git diff --staged
+  400  git checkout master
+  401  git staus
+  402  git status
+  403  git commit -m "[Pavithra]Modify AddedExtraLineOfCode"
+  404  git push origin devlopement 
+  405  git checkout devlopement 
+  406  git checkout master
+  408  git pull
+  410  git checkout devlopement 
+  411  git merge master
+  413  git status
+  414  git add Program.cs 
+  415  git commit -m "[Pavithra]Modify ResilvedConflictsAndMergingFromMaster"
+  416  git push origin devlopement 
+  440  git init
+  441  git remote -v
+  470  git init
+  472  nano .gitignore
+  473  git add .
+  474  git status
+  475  git rm --cached .
+  476  git -r rm --cached .
+  477  git -r rm --cached SampleDemo/bin/Debug
+  478  git rm --cached SampleDemo/bin/Debug
+  479  git -R rm SampleDemo/bin/Debug
+  480  git rm -R SampleDemo/bin/Debug
+  481  git rm -r SampleDemo/bin/Debug
+  483  git status
+  484  git commit -m "Add sample project"
+  485  git remote add origin https://github.com/PavithraNS/RFPBatchRepo.git
+  486  git push -u origin master
+  489  git clone https://github.com/PavithraNS/RFPBatchRepo.git
+  495  git checkout -b developerBranch
+  496  git add .
+  497  git status
+  498  git commit -m "Modified TestNamespace.cs file and also pushing new branch"
+  499  git push -u origin developerBranch 
+  500  git branch
+  502  git config –global user.name "PavithraNS"  
+  503  git config –-global user.name "PavithraNS"  
+  504  git config --global user.name "PavithraNS"  
+  505  git config --global user.email "nspavi1991@gmail.com"  
+  506  git config
+  507  git config --list
+  509  git checkout master
+  510  git branch QA
+  511  git branch
+  512  git branch -d QA
+  513  git branch
+  514  git push origin --delete developerBranch 
+  519  git pull
+  521  git history
+  522  git --history
+  524  history grep git
+  525  grep history git
+  526  history | grep git
+  527  history | grep git > gitCommands.txt

@@ -13,7 +13,7 @@ namespace TestClass
     {
         public void Test1()
         {
-            Console.WriteLine("created and pushing developer's branch");
+            Console.WriteLine("created and pushing Test's branch");
         }
     }
 }
