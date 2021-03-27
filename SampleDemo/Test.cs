@@ -26,7 +26,8 @@ namespace SampleDemo
             double res = program.TestMethod();
             Console.WriteLine("Double value in main method " + res);
             Console.Wrilteline("Modifying in remote master branch");
-            
+             Console.Wrilteline("Modifying in local test branch");
+
             Console.Read();
         }
 
