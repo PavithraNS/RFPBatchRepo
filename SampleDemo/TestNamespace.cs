@@ -14,6 +14,7 @@ namespace TestClass
         public void Test1()
         {
             Console.WriteLine("created and pushing Test's branch");
+	Console.WriteLine("Testing merge from command of master into testBranch");
         }
     }
 }
